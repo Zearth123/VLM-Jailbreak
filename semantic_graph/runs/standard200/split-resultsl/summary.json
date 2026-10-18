@@ -1,0 +1,19 @@
+{
+  "split_version": "semantic-split-1",
+  "method": "action-centered source graph decomposition",
+  "input_sha256": "f1728305a83d957ac7dfdc6fffaef312f04a321b45da8c0c3a37ff971a49b214",
+  "n_input": 200,
+  "n_output": 200,
+  "n_fragments": 206,
+  "split_statuses": {
+    "ok": 73,
+    "skipped": 120,
+    "partial": 7
+  },
+  "source_statuses": {
+    "ok": 80,
+    "refused": 103,
+    "invalid": 17
+  },
+  "note": "Coverage measures preservation of supplied graph elements, not semantic correctness."
+}

@@ -1,0 +1,38 @@
+{
+  "dataset_type": "handwritten_benign_examples",
+  "n_records": 4,
+  "n_fragments": 7,
+  "note": "Public demonstration data and results; not the separately prepared 80-record dataset or a model experiment.",
+  "files": [
+    {
+      "path": "fragments.jsonl",
+      "bytes": 13222,
+      "sha256": "e523c99f454188c3ab1e1fe651182bf48acf8669abadbb4a0049576ec97f22fc"
+    },
+    {
+      "path": "graphs.jsonl",
+      "bytes": 4802,
+      "sha256": "3b6dae5334280d9ea20bcbd137a6da3b3cbae7e1b8769d6ed4dadbe22cb0dd7f"
+    },
+    {
+      "path": "inputs.jsonl",
+      "bytes": 396,
+      "sha256": "f22adff48e7b0a6f4f22fe45b575a19d8be4f970cbbc7f2022f99672c64a1385"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1298,
+      "sha256": "9a6805ea6b637704ce0977cbac1da3c0ef71c57b1a3dbe8d4bfaa77655727d1b"
+    },
+    {
+      "path": "run.meta.json",
+      "bytes": 356,
+      "sha256": "aad32b1d8d0ee63bd82b0f220f737385852e67e0bf292ed5617ebdbaaf922191"
+    },
+    {
+      "path": "split_summary.json",
+      "bytes": 655,
+      "sha256": "b184f5d41d0bd1986fa634139dcbac5e2e0d24ef804a548fc5f8298ef37d61ae"
+    }
+  ]
+}

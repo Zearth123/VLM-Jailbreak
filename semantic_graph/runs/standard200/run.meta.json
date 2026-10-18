@@ -1,0 +1,25 @@
+{
+  "input_fingerprint": "f2926a12beea5e1dc4814263297d0f810f425c61965d9dba3bfa572e9ab44eb7",
+  "config": {
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "temperature": 0,
+    "max_tokens": 8192,
+    "timeout": 90,
+    "retries": 2,
+    "thinking": "disabled",
+    "response_format": "json_object"
+  },
+  "prompt_sha256": "fafac15fbec568e70ffe481f46b0c0f1a509243e35dca6fae7cb2cb70582e569",
+  "implementation_sha256": "5847dfcb96cd08203f8a32515c20f435352fbfdb9c71dca015f5b2f5e8e3e23a",
+  "schema_version": "sg-1.2",
+  "prompt_version": "extract-3",
+  "repeat_id": 0,
+  "started_utc": "2026-10-15T14:11:04.980857+00:00",
+  "code_commit": "685819e3105b6172b6baaeded7b33bebed7f8eb0",
+  "n_input": 200,
+  "n_processed": 200,
+  "complete": true,
+  "note": "Machine extractions; human fidelity evaluation is separate.",
+  "finished_utc": "2026-10-15T14:14:22.708032+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "input_fingerprint": "d4421778fb683cf2bc1fef85cd0831272feda811b7af945a01fdd5f3d6958912",
+  "n_input": 4,
+  "n_processed": 4,
+  "complete": true,
+  "mode": "handwritten_benign_fixture",
+  "n_provider_calls": 0,
+  "schema_version": "sg-1.2",
+  "note": "Handwritten benign graph fixtures for CLI integration verification; not model experiment results."
+}

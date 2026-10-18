@@ -1,0 +1,62 @@
+{
+  "n_input": 200,
+  "n_processed": 200,
+  "n_unprocessed": 0,
+  "complete": true,
+  "statuses": {
+    "ok": 80,
+    "refused": 103,
+    "invalid": 17
+  },
+  "coverage_ok": 0.4,
+  "coverage_including_partial": 0.4,
+  "refusal_rate": 0.515,
+  "cache_hits": 10,
+  "usage_this_run": {
+    "prompt_tokens": 199059,
+    "completion_tokens": 45700,
+    "total_tokens": 244759
+  },
+  "response_models": [
+    "deepseek-flash"
+  ],
+  "by_category": {
+    "chemical_biological": {
+      "total": 28,
+      "ok": 7,
+      "refused": 21
+    },
+    "cybercrime_intrusion": {
+      "total": 40,
+      "refused": 21,
+      "ok": 13,
+      "invalid": 6
+    },
+    "harassment_bullying": {
+      "total": 19,
+      "refused": 11,
+      "ok": 8
+    },
+    "harmful": {
+      "total": 21,
+      "invalid": 1,
+      "ok": 12,
+      "refused": 8
+    },
+    "illegal": {
+      "total": 58,
+      "refused": 40,
+      "ok": 13,
+      "invalid": 5
+    },
+    "misinformation_disinformation": {
+      "total": 34,
+      "ok": 27,
+      "refused": 2,
+      "invalid": 5
+    }
+  },
+  "fidelity": null,
+  "human_reference_status": "pending",
+  "note": "Coverage measures structural validation, not semantic correctness or risk reduction."
+}

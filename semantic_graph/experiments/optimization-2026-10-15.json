@@ -1,0 +1,111 @@
+{
+  "provider_calls_this_optimization": 0,
+  "io": {
+    "records": 200,
+    "old_graph_bytes_written": 57191986,
+    "new_graph_bytes_written": 1077070,
+    "byte_reduction": 0.9811674663649554,
+    "old_wall_s": [
+      1.1594795000000886,
+      1.1570733999997174,
+      3.674864399999933
+    ],
+    "new_wall_s": [
+      0.01746140000068408,
+      0.017518199998448836,
+      0.07070970000131638
+    ],
+    "median_wall_speedup": 66.18713681215854,
+    "scope": "Same archived rows; graph JSONL serialization and writes only; three trials."
+  },
+  "scheduler": {
+    "workers": 3,
+    "task_delays_s": [
+      0.09,
+      0.003,
+      0.003,
+      0.09,
+      0.003,
+      0.003,
+      0.09,
+      0.003,
+      0.003,
+      0.09,
+      0.003,
+      0.003,
+      0.09,
+      0.003,
+      0.003,
+      0.09,
+      0.003,
+      0.003,
+      0.09,
+      0.003,
+      0.003,
+      0.09,
+      0.003,
+      0.003
+    ],
+    "old_wall_s": [
+      0.7356864000012138,
+      0.7298816000002262,
+      0.7299153000003571
+    ],
+    "new_wall_s": [
+      0.47575729999880423,
+      0.43510389999937615,
+      0.46725789999982226
+    ],
+    "median_wall_speedup": 1.5621251133488268,
+    "scope": "Synthetic uneven delays. Old scheduler only vs new complete local pipeline; three trials. Not live API latency."
+  },
+  "replay": {
+    "mode": "replay",
+    "records": 200,
+    "baseline_attempts_archived": 252,
+    "replayed_attempts_consumed": 243,
+    "archived_second_attempts_not_needed_by_parser": 9,
+    "status_transitions": {
+      "ok->ok": 74,
+      "refused->refused": 103,
+      "invalid->invalid": 8,
+      "ok->partial": 6,
+      "invalid->partial": 9
+    },
+    "note": "Replay reuses available responses; it does not predict unseen model replies or establish semantic accuracy."
+  },
+  "cleanup": {
+    "files_removed": 1057,
+    "bytes_removed": 59476843,
+    "groups": [
+      "browser QA profile and screenshots",
+      "superseded development runs",
+      "duplicate pending annotations",
+      "obsolete cache keys",
+      "Python bytecode"
+    ],
+    "current_cache_entries_retained": 220,
+    "note": "Gross cleanup excludes later regeneration of derived replay outputs/current caches. Browser QA profile removed; retained baseline and repeat responses preserved; obsolete development responses removed."
+  },
+  "baseline_graphs_sha256_before_cleanup": "746a3eac9feef01254a98c2f3b792613a1c4a4514ffeb84a04b8bd94fffc5526",
+  "browser_qa": {
+    "samples": 200,
+    "valid_graphs_checked": 89,
+    "checks": [
+      "sample selection",
+      "node counts",
+      "edge counts",
+      "node evidence highlight",
+      "edge evidence highlight",
+      "partial status visible"
+    ],
+    "temporary_artifacts_removed": true
+  },
+  "verification": {
+    "semantic_graph_tests_passed": 37,
+    "original_offline_tests_passed": 45,
+    "baseline_unchanged": true,
+    "full_200_current_cache_hits": 200,
+    "full_200_current_cache_provider_calls": 0
+  }
+}

@@ -1,0 +1,4 @@
+examples/benign-graphs/*.json text eol=lf
+examples/benign-graphs/*.jsonl text eol=lf
+examples/benign-graphs/*.md text eol=lf
+semantic_graph/runs/standard200/** -text

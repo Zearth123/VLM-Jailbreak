@@ -1,0 +1,20 @@
+{
+  "split_version": "semantic-split-1",
+  "method": "action-centered source graph decomposition",
+  "input_sha256": "d4421778fb683cf2bc1fef85cd0831272feda811b7af945a01fdd5f3d6958912",
+  "n_input": 4,
+  "n_output": 4,
+  "n_fragments": 7,
+  "split_statuses": {
+    "ok": 4
+  },
+  "source_statuses": {
+    "ok": 4
+  },
+  "note": "Coverage measures preservation of supplied graph elements, not semantic correctness.",
+  "source_run": "examples/benign-graphs",
+  "source_complete": true,
+  "source_graphs_sha256": "4665f06eaf0865dc2b919f9fb26b8bbf90b16ff07175a9686c219b9a7f2a5d0b",
+  "source_run_mode": "handwritten_benign_fixture",
+  "n_provider_calls": 0
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+semantic_graph/runs/*
+!semantic_graph/runs/standard200/
+semantic_graph/cache/
+semantic_graph/data/
+semantic_split/runs/
+semantic_split/cache/
+
