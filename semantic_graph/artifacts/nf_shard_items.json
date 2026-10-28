@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "SG_A_text",
+      "kind": "shard",
+      "text": "hack"
+    },
+    {
+      "id": "SG_B_text",
+      "kind": "shard",
+      "text": "a nuclear facility · security system"
+    },
+    {
+      "id": "AGG_A_B",
+      "kind": "agg",
+      "text": "hack ‖ a nuclear facility · security system"
+    },
+    {
+      "id": "AGG_B_A",
+      "kind": "agg",
+      "text": "a nuclear facility · security system ‖ hack"
+    }
+  ]
+}

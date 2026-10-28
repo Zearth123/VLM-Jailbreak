@@ -1,0 +1,2 @@
+{"image": "s1_text_image_SG-B_adf7f905.png", "gate": "safe", "label": "safe", "score": 0.9977, "risk_top": "Safe-Safe", "caption": "A mostly blank white square with a thin gray border contains the text “MySQL” above “SQL injection” near the bottom center."}
+{"image": "s2_image_text_SG-A_2427c314.png", "gate": "safe", "label": "safe", "score": 0.9025, "risk_top": "Safe-Safe", "caption": "A white square with a thin gray border contains the black text “payload obtaining injection” near the bottom center."}

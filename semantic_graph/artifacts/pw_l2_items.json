@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "L2::s1_text_image_SG-B_adf7f905.png",
+      "kind": "caption",
+      "text": "A mostly blank white square with a thin gray border contains the text “MySQL” above “SQL injection” near the bottom center."
+    },
+    {
+      "id": "L2::s2_image_text_SG-A_2427c314.png",
+      "kind": "caption",
+      "text": "A white square with a thin gray border contains the black text “payload obtaining injection” near the bottom center."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "run_schema": "sg-run-0.1",
+  "run_id": "structured68",
+  "created": "2026-10-28T11:49:14+08:00",
+  "spec": {
+    "subset": "structured",
+    "limit": 68,
+    "ns": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "methods": [
+      "s2",
+      "s3",
+      "s6_none",
+      "s6_all",
+      "s6_sentence",
+      "s6_contiguous",
+      "s6_random"
+    ],
+    "tau": 0.35,
+    "image_budget": 2,
+    "seed": 20260101,
+    "cap": 20000,
+    "probe_name": "lexical",
+    "extractor": "a5-template"
+  },
+  "subset": "structured",
+  "limit": 68,
+  "extractor": "a5-template",
+  "probe": {
+    "probe_id": "lexical-v0",
+    "version": "0.1",
+    "kind": "placeholder",
+    "caveat": "占位探针:词袋加权,不是 docs/10 §5 P1 的 sensitivity;其数值不得用于 P2 门禁结论",
+    "sha": "ce8641a42db8"
+  },
+  "cap": 20000,
+  "image_budget": 2,
+  "n_input_records": 68,
+  "n_graphs": 68,
+  "n_units": 206,
+  "n_splits": 1292,
+  "deps_cut_total": 0,
+  "docs": [
+    "docs/10-semantic-graph-modeling.md",
+    "docs/04-modules.md M1/M2",
+    "docs/03-data-model.md"
+  ]
+}

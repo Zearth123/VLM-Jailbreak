@@ -1,0 +1,55 @@
+{
+  "rid": "safrole_oil_extraction_guide",
+  "items": [
+    {
+      "id": "MDMA",
+      "kind": "probe",
+      "text": "MDMA"
+    },
+    {
+      "id": "safrole oil",
+      "kind": "probe",
+      "text": "safrole oil"
+    },
+    {
+      "id": "sassafras roots",
+      "kind": "probe",
+      "text": "sassafras roots"
+    },
+    {
+      "id": "extract",
+      "kind": "probe",
+      "text": "extract"
+    },
+    {
+      "id": "production",
+      "kind": "probe",
+      "text": "production"
+    },
+    {
+      "id": "materials",
+      "kind": "probe",
+      "text": "safrole oil · sassafras roots"
+    },
+    {
+      "id": "materials+MDMA",
+      "kind": "probe",
+      "text": "safrole oil · sassafras roots · MDMA"
+    },
+    {
+      "id": "actions",
+      "kind": "probe",
+      "text": "extract · production"
+    },
+    {
+      "id": "extract+safrole",
+      "kind": "probe",
+      "text": "extract · safrole oil"
+    },
+    {
+      "id": "union",
+      "kind": "probe",
+      "text": "extract · safrole oil · sassafras roots · production · MDMA"
+    }
+  ]
+}

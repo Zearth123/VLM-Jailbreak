@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": "A_steal",
+      "kind": "shard",
+      "text": "steal"
+    },
+    {
+      "id": "B_money_atm",
+      "kind": "shard",
+      "text": "money · ATM machine"
+    },
+    {
+      "id": "X_steal_money",
+      "kind": "shard",
+      "text": "steal · money"
+    },
+    {
+      "id": "Y_steal_atm",
+      "kind": "shard",
+      "text": "steal · ATM machine"
+    },
+    {
+      "id": "Z_money",
+      "kind": "shard",
+      "text": "money"
+    },
+    {
+      "id": "W_atm",
+      "kind": "shard",
+      "text": "ATM machine"
+    },
+    {
+      "id": "AGG_A_B",
+      "kind": "agg",
+      "text": "steal ‖ money · ATM machine"
+    },
+    {
+      "id": "AGG_B_A",
+      "kind": "agg",
+      "text": "money · ATM machine ‖ steal"
+    }
+  ]
+}

@@ -1,13 +1,37 @@
+# ---- 权重与依赖:不进库(体积大,可重装/重下)----
+.models/
+.tmp/
+.pylibs/
+.pylibs_probe/
+.hf/
+models/
+
+# 兜底:即使路径写错,也不把权重提交上去
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+
+# ---- Python ----
 __pycache__/
 *.py[cod]
-.venv/
-.env
-.env.*
-!.env.example
-semantic_graph/runs/*
-!semantic_graph/runs/standard200/
-semantic_graph/cache/
-semantic_graph/data/
-semantic_split/runs/
-semantic_split/cache/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
 
+# ---- 松散日志 ----
+*.log
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# ---- 临时打包 ----
+*.zip
+*.7z
+*.tar.gz
+
+# 跑测试/渲染留下的临时目录(部分在沙箱里不可读)
+_tmp/

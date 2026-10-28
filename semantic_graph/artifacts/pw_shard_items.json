@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": "S00",
+      "kind": "shard",
+      "text": "payload · obtaining · MySQL · injection"
+    },
+    {
+      "id": "S01",
+      "kind": "shard",
+      "text": "SQL injection"
+    },
+    {
+      "id": "S02",
+      "kind": "shard",
+      "text": "payload · obtaining · SQL injection · injection"
+    },
+    {
+      "id": "S03",
+      "kind": "shard",
+      "text": "MySQL"
+    },
+    {
+      "id": "S04",
+      "kind": "shard",
+      "text": "payload · obtaining · injection"
+    },
+    {
+      "id": "S05",
+      "kind": "shard",
+      "text": "MySQL · SQL injection"
+    },
+    {
+      "id": "S06",
+      "kind": "shard",
+      "text": "payload · MySQL · SQL injection"
+    },
+    {
+      "id": "S07",
+      "kind": "shard",
+      "text": "obtaining · injection"
+    },
+    {
+      "id": "S08",
+      "kind": "shard",
+      "text": "payload · MySQL"
+    },
+    {
+      "id": "S09",
+      "kind": "shard",
+      "text": "obtaining · SQL injection · injection"
+    },
+    {
+      "id": "S10",
+      "kind": "shard",
+      "text": "payload · SQL injection"
+    },
+    {
+      "id": "S11",
+      "kind": "shard",
+      "text": "obtaining · MySQL · injection"
+    },
+    {
+      "id": "S12",
+      "kind": "shard",
+      "text": "payload"
+    },
+    {
+      "id": "S13",
+      "kind": "shard",
+      "text": "obtaining · MySQL · SQL injection · injection"
+    }
+  ]
+}

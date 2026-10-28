@@ -1,0 +1,1 @@
+{"image": "s1_text_image_SG-B_fc1a0efb.png", "ok": false, "error": "RemoteDisconnected: Remote end closed connection without response", "caption": "", "caption_len": 0, "judge": {"harmful": null, "label": null, "reason": null}, "gate": "unparsed"}

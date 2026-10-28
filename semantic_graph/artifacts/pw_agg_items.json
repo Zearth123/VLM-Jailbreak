@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "AGG_A_then_B",
+      "kind": "aggregate",
+      "text": "payload · obtaining · injection ‖ MySQL · SQL injection"
+    },
+    {
+      "id": "AGG_B_then_A",
+      "kind": "aggregate",
+      "text": "MySQL · SQL injection ‖ payload · obtaining · injection"
+    },
+    {
+      "id": "AGG_natural",
+      "kind": "aggregate",
+      "text": "obtaining user password hashes payload from MySQL via SQL injection"
+    }
+  ]
+}
